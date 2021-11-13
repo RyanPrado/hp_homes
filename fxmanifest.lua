@@ -6,7 +6,7 @@ ui_page "web-side/nui/index.html"
 
 author 'Harry <HarryKillerBR#4560> <discord.gg/FqhvHEg>'
 description 'Codigo de Sistema de Casas'
-version '0.1.1'
+version '0.1.0'
 
 files {
     "web-side/nui/**/*"
@@ -18,7 +18,7 @@ shared_scripts {
 
 client_scripts {
     "c_utils.lua",
-    "cfg/config.lua",
+    "cfg/**/*.lua",
     "web-side/client.lua",
     "client-side/**/*.lua"
 }
