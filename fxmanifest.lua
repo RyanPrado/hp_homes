@@ -6,10 +6,11 @@ ui_page "web-side/nui/index.html"
 
 author 'Harry <HarryKillerBR#4560> <discord.gg/FqhvHEg>'
 description 'Codigo de Sistema de Casas'
+lua54 'yes'
 version '0.5.1'
 
 files {
-    "web-side/nui/**/*"
+    "web-side/nui/**/*",
 }
 
 shared_scripts {
@@ -29,8 +30,11 @@ server_scripts {
     "server-side/**/*.lua"
 }
 
-
-
 shared_scripts {
     'shared-side/**/*.lua',
 }
+
+escrow_ignore {
+    "cfg/**/*.lua",
+    "web-side/nui/**/*",
+  }
