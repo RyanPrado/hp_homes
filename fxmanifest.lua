@@ -6,7 +6,7 @@ ui_page "web-side/nui/index.html"
 
 author 'Harry <HarryKillerBR#4560> <discord.gg/FqhvHEg>'
 description 'Codigo de Sistema de Casas'
-version '0.1.0'
+version '0.8.1'
 
 files {
     "web-side/nui/**/*"
